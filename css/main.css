@@ -1,0 +1,38 @@
+body {
+	font-family: verdana, sans-serif;
+	margin: 0;
+}
+.wtf {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	min-height: 550px;
+	position: relative;
+}
+.wtf__title {
+	bottom: .75em;
+	color: #999999;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	position: absolute;
+	right: 1em;
+}
+.wtf__media {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 20px;
+	width: 100%;
+}
+.wtf__image {
+	width: 100%;
+}
+.wtf__caption {
+	color: #aaaaaa;
+	font-size: 12px;
+	text-align: center;
+}
+.wtf__caption a {
+	color: inherit;
+}
